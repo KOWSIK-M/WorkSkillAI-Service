@@ -4,6 +4,7 @@ from typing import List
 import joblib
 import os
 import numpy as np
+from fastapi.middleware.cors import CORSMiddleware
 
 # Paths
 MODEL_PATH = os.path.join("models", "skill_gap_model.pkl")
@@ -16,6 +17,13 @@ vectorizer = saved["vectorizer"]
 mlb = joblib.load(ENCODER_PATH)
 
 app = FastAPI()
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  # or ["http://localhost:5173"] for more security
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 class StudentProfile(BaseModel):
