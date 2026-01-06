@@ -1,0 +1,154 @@
+{
+  "shape": [
+    500,
+    10
+  ],
+  "columns": [
+    "Job_Title",
+    "Industry",
+    "Company_Size",
+    "Location",
+    "AI_Adoption_Level",
+    "Automation_Risk",
+    "Required_Skills",
+    "Salary_USD",
+    "Remote_Friendly",
+    "Job_Growth_Projection"
+  ],
+  "dtypes": {
+    "Job_Title": "object",
+    "Industry": "object",
+    "Company_Size": "object",
+    "Location": "object",
+    "AI_Adoption_Level": "object",
+    "Automation_Risk": "object",
+    "Required_Skills": "object",
+    "Salary_USD": "float64",
+    "Remote_Friendly": "object",
+    "Job_Growth_Projection": "object"
+  },
+  "sample": [
+    {
+      "Job_Title": "Cybersecurity Analyst",
+      "Industry": "Entertainment",
+      "Company_Size": "Small",
+      "Location": "Dubai",
+      "AI_Adoption_Level": "Medium",
+      "Automation_Risk": "High",
+      "Required_Skills": "UX/UI Design",
+      "Salary_USD": 111392.16524315962,
+      "Remote_Friendly": "Yes",
+      "Job_Growth_Projection": "Growth"
+    },
+    {
+      "Job_Title": "Marketing Specialist",
+      "Industry": "Technology",
+      "Company_Size": "Large",
+      "Location": "Singapore",
+      "AI_Adoption_Level": "Medium",
+      "Automation_Risk": "High",
+      "Required_Skills": "Marketing",
+      "Salary_USD": 93792.56246610906,
+      "Remote_Friendly": "No",
+      "Job_Growth_Projection": "Decline"
+    },
+    {
+      "Job_Title": "AI Researcher",
+      "Industry": "Technology",
+      "Company_Size": "Large",
+      "Location": "Singapore",
+      "AI_Adoption_Level": "Medium",
+      "Automation_Risk": "High",
+      "Required_Skills": "UX/UI Design",
+      "Salary_USD": 107170.26306894996,
+      "Remote_Friendly": "Yes",
+      "Job_Growth_Projection": "Growth"
+    }
+  ],
+  "unique_counts": {
+    "Job_Title": 10,
+    "Industry": 10,
+    "Company_Size": 3,
+    "Location": 10,
+    "AI_Adoption_Level": 3,
+    "Automation_Risk": 3,
+    "Required_Skills": 10,
+    "Salary_USD": 500,
+    "Remote_Friendly": 2,
+    "Job_Growth_Projection": 3
+  },
+  "unique_values": {
+    "Job_Title": [
+      "Cybersecurity Analyst",
+      "Marketing Specialist",
+      "AI Researcher",
+      "Sales Manager",
+      "UX Designer",
+      "HR Manager",
+      "Product Manager",
+      "Software Engineer",
+      "Data Scientist",
+      "Operations Manager"
+    ],
+    "Industry": [
+      "Entertainment",
+      "Technology",
+      "Retail",
+      "Education",
+      "Finance",
+      "Transportation",
+      "Telecommunications",
+      "Manufacturing",
+      "Healthcare",
+      "Energy"
+    ],
+    "Company_Size": [
+      "Small",
+      "Large",
+      "Medium"
+    ],
+    "Location": [
+      "Dubai",
+      "Singapore",
+      "Berlin",
+      "Tokyo",
+      "San Francisco",
+      "London",
+      "Paris",
+      "Sydney",
+      "New York",
+      "Toronto"
+    ],
+    "AI_Adoption_Level": [
+      "Medium",
+      "Low",
+      "High"
+    ],
+    "Automation_Risk": [
+      "High",
+      "Low",
+      "Medium"
+    ],
+    "Required_Skills": [
+      "UX/UI Design",
+      "Marketing",
+      "Project Management",
+      "JavaScript",
+      "Cybersecurity",
+      "Sales",
+      "Machine Learning",
+      "Python",
+      "Data Analysis",
+      "Communication"
+    ],
+    "Remote_Friendly": [
+      "Yes",
+      "No"
+    ],
+    "Job_Growth_Projection": [
+      "Growth",
+      "Decline",
+      "Stable"
+    ]
+  }
+}
